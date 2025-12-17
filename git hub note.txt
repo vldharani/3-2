@@ -1,0 +1,20 @@
+what is git hub
+GitHub is a web-based platform for developers to store, manage, and collaborate on code using Git
+  
+1.first check the git hub is installed or not in the laptop
+2.if it is not install then it download from chrome by searching git for windows 
+3.after installing the git hub check in the cmd 
+4.open cmd after that give prompt git -version
+5.and then open file cmd and give prompt git init
+6.git add .
+7.git commit -m
+8.git commit -m "My first commit"
+after using this prompt it  add direct to the git hub 
+9. if it is not add then check weather it is our name is sign or not
+10. git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+11.git commit -m "My first commit"
+12.git remote add origin https://github.com/vldharani/3-2-.git
+13.git branch
+14.git hub to git - pull
+15.git to git hub - push
