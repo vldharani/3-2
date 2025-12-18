@@ -1,8 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- BASIC SEO -->
     <meta charset="UTF-8">
-    <title>Simple Web Page</title>
+    <title>Simple HTML CSS JavaScript Website | Beginner Project</title>
+    <meta name="description" content="A simple beginner-friendly website built using HTML, CSS, and JavaScript in a single file without any backend.">
+    <meta name="keywords" content="HTML CSS JavaScript, single page website, frontend project, beginner web project">
+    <meta name="author" content="Lakshmi Dharani Veera">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SOCIAL SEO (Open Graph) -->
+    <meta property="og:title" content="Simple Frontend Website">
+    <meta property="og:description" content="A clean single-file website using HTML, CSS, and JavaScript only.">
+    <meta property="og:type" content="website">
 
     <!-- CSS -->
     <style>
@@ -39,17 +49,30 @@
 
 <body>
 
-    <h1 id="heading">Welcome</h1>
-    <p id="text">This is a simple HTML, CSS, and JavaScript page.</p>
+    <!-- SEO FRIENDLY CONTENT -->
+    <header>
+        <h1 id="heading">Welcome to My Simple Website</h1>
+    </header>
 
-    <button onclick="changeContent()">Click Me</button>
+    <main>
+        <p id="text">
+            This is a simple single-page website built using HTML, CSS, and JavaScript only.
+            It does not require any backend or server.
+        </p>
 
-    <!-- JavaScript -->
+        <button onclick="changeContent()">Click Me</button>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Simple Frontend Project</p>
+    </footer>
+
+    <!-- JAVASCRIPT -->
     <script>
         function changeContent() {
-            document.getElementById("heading").innerText = "Hello from JavaScript!";
+            document.getElementById("heading").innerText = "JavaScript Updated the Content!";
             document.getElementById("text").innerText =
-                "This page works without any backend.";
+                "SEO-friendly content helps your website rank better on search engines.";
         }
     </script>
 
