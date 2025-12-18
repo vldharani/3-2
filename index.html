@@ -1,10 +1,57 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My Web Page</title>
+    <meta charset="UTF-8">
+    <title>Simple Web Page</title>
+
+    <!-- CSS -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+            padding-top: 50px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        p {
+            font-size: 18px;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border: none;
+            background-color: #007bff;
+            color: white;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
 </head>
+
 <body>
-    <h1>Welcome</h1>
-    <p>This is a simple HTML web page.</p>
+
+    <h1 id="heading">Welcome</h1>
+    <p id="text">This is a simple HTML, CSS, and JavaScript page.</p>
+
+    <button onclick="changeContent()">Click Me</button>
+
+    <!-- JavaScript -->
+    <script>
+        function changeContent() {
+            document.getElementById("heading").innerText = "Hello from JavaScript!";
+            document.getElementById("text").innerText =
+                "This page works without any backend.";
+        }
+    </script>
+
 </body>
 </html>
